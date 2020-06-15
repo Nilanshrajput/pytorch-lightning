@@ -134,8 +134,6 @@ class ConfusionMatrix(TensorMetric):
                     [0., 0., 1., 1.],
                     [0., 0., 0., 0.]])
 
-
-
         """
         super().__init__(name='confusion_matrix',
                          reduce_group=reduce_group,
